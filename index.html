@@ -13,19 +13,18 @@
 	</head>
 
 	<body>
-		<nav class="one-edge-shadow">
+		<nav>
 			
 			<div id="burger">&#9776;</div>
 			<ul>
 				<li><a href="#home" class="current">Home</a></li>
 				<li><a href="#about">About</a></li>
 				<li><a href="#process">Process</a></li>
-				<li id="blog-link"><a href="#blog">Blog
+				<li id="blog-link"><a href="#skills">Skills</a>
 					<ul>
-						<li><a href="#">Post 1</li>
-						<li><a href="#">Post 2</li>
-						<li><a href="#">Post 3</li>
-						<li><a href="#">Post 4</li>
+						<li><a href="#skills">Creative</a></li>
+						<li><a href="#web">Web Development</a></li>
+						<li><a href="#business">Business</li>
 					</ul>
 				</a>
 				</li>
@@ -52,7 +51,7 @@
 	 
 					I am a graduate of the NYU Undergraduate Music Business Program and have years of experience in the music industry. I have interned at companies like Red Light Management, Glassnote Records, and Columbia Records. To get more information on my work experience, check out my resumé below.</p>
 					<div style="text-align: center; vertical-align: bottom;">
-						<a class="btn yellow">view my resumé</a>
+						<a class="btn yellow button2">view my resumé</a>
 					</div> <!-- center button div end -->
 
 						</div> <!-- box div end -->
@@ -84,15 +83,103 @@
 
 			</div> <!-- grid2 end -->
 
-	<!-- Blog Section -->
-		<section id="blog">
-			<h1>Blog</h1> 
-		</section>
+	<!-- Skills Section -->
+		<div class="grid">
+			<div class="grid__col grid__col--1-of-3 grid__col--s-1-of-1">
+				<div class="box">
+					<section id="skills">
+						<h1>Creative</h1> 
+					</section>
+					<h3>Writing</h3>
+					<div class="progress">
+						<div class="determinate" style="width: 95%"></div>
+					</div>
+					<h3>Photoshop + Illustrator</h3>
+					<div class="progress">
+						<div class="determinate" style="width: 85%"></div>
+					</div>
+					<h3>Digital Production</h3>
+					<div class="progress">
+						<div class="determinate" style="width: 79%"></div>
+					</div>
+					<h3>Web + Logo Design</h3>
+					<div class="progress">
+						<div class="determinate" style="width: 90%"></div>
+					</div>
+
+				</div> <!-- box div end -->
+			</div> <!-- grid__col div end -->
+
+			<div class="grid__col grid__col--1-of-3 grid__col--s-1-of-1">
+				<div class="box">
+					<section id="web">
+						<h1>Web Development</h1> 
+					</section>
+					<h3>HTML</h3>
+					<div class="progress">
+						<div class="determinate" style="width: 98%"></div>
+					</div>
+					<h3>CSS</h3>
+					<div class="progress">
+						<div class="determinate" style="width: 98%"></div>
+					</div>
+					<h3>JavaScript & JQuery</h3>
+					<div class="progress">
+						<div class="determinate" style="width: 40%"></div>
+					</div>
+					<h3>UX/UI</h3>
+					<div class="progress">
+						<div class="determinate" style="width: 70%"></div>
+					</div>
+
+				</div> <!-- box div end -->
+			</div> <!-- grid__col div end -->
+
+				<div class="grid__col grid__col--1-of-3 grid__col--s-1-of-1">
+				<div class="box">
+					<section id="business">
+						<h1>Business</h1> 
+					</section>
+					<h3>Digital Marketing</h3>
+					<div class="progress">
+						<div class="determinate" style="width: 90%"></div>
+					</div>
+					<h3>Social Media</h3>
+					<div class="progress">
+						<div class="determinate" style="width: 95%"></div>
+					</div>
+					<h3>Brand Partnerships</h3>
+					<div class="progress">
+						<div class="determinate" style="width: 90%"></div>
+					</div>
+					<h3>Branding</h3>
+					<div class="progress">
+						<div class="determinate" style="width: 100%"></div>
+					</div>
+
+				</div> <!-- box div end -->
+			</div> <!-- grid__col div end -->
+		</div> <!-- grid 3 end -->
 
 	<!-- Contact Section -->
+	<div class="grid">
 		<section id="contact">
-			<h1>Contact</h1> 
 		</section>
+			<div class="grid__col grid__col--2-of-3 grid__col--s-3-of-3">
+				<div class="imgbox3 box tall3" style="color: white;">
+				</div> <!-- box div end -->
+			</div> <!-- grid__col div end -->
+
+			<div class="grid__col grid__col--1-of-3 grid__col--s-3-of-3">
+				<div class="box tall3">
+					<h2>Contact Me</h2>
+					<h3 class="email"><a class="email" href="mailto:philipmvachon@gmail.com" target="_blank">Email</h3></a>
+					<h3 class="email"><a class="email" href="https://www.linkedin.com/in/philipvachon" target="_blank">LinkedIn</h3></a>
+					<h3 class="email"><a class="email" href="https://github.com/philipvachon" target="_blank">GitHub</h3></a>
+				</div> <!-- box div end -->
+			</div> <!-- grid__col div end -->
+		</div>
+	</div>
 		
 
 	<!-- JavaScript -->
@@ -102,7 +189,7 @@
 
 			$('nav').onePageNav({
 				scrollThreshold: 0.4,
-				navItems: 'a:not(#blog-link a)'
+				navItems: 'a:not(#projects-link a)'
 			});
 
 			function toggleNav() {
