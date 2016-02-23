@@ -13,6 +13,9 @@
 	</head>
 
 	<body>
+		<script src="jquery-2.1.4.min.js"></script>
+		<script src="typeit.js"></script>
+		<span class="type-it"></span>
 		<nav>
 			
 			<div id="burger">&#9776;</div>
@@ -35,6 +38,9 @@
 		<div class="notnav">
 
 			<section id="home">
+				<h1 id="typeitintro">
+		    	Hello. My name is Philip.
+			</h1>
 			</section>
 
 			<div class="fullscreen">
@@ -125,7 +131,7 @@
 					</div>
 					<h3>JavaScript & JQuery</h3>
 					<div class="progress">
-						<div class="determinate" style="width: 40%"></div>
+						<div class="determinate" style="width: 50%"></div>
 					</div>
 					<h3>UX/UI</h3>
 					<div class="progress">
@@ -185,7 +191,12 @@
 	<!-- JavaScript -->
 		<script src="http://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
 		<script src="js/jquery.nav.js" type="text/javascript"></script>
+		<script src="https://cdn.jsdelivr.net/jquery.typeit/3.0.1/typeit.min.js"></script>
+
 		<script>
+
+			// typeit js
+			$('#typeitintro').typeIt();
 
 			$('nav').onePageNav({
 				scrollThreshold: 0.4,
@@ -217,8 +228,14 @@
 			}
 
 			$('#blog-link').click(toggleChildren);
-		
-
 		</script>
+
+		<!-- jQuery library (served from Google) -->
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+			<!-- bxSlider Javascript file -->
+			<script src="/js/jquery.bxslider.min.js"></script>
+			<!-- bxSlider CSS file -->
+			<link href="/lib/jquery.bxslider.css" rel="stylesheet" />		
+
 	</body>
 </html>

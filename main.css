@@ -61,6 +61,12 @@
 		color: #dddddd;
 	}
 
+	#typeitintro {
+		font-size: 36px;
+		text-align: center;
+		position: relative;
+	}
+
 	nav {
 		position: fixed;
 		top: 0;
@@ -76,7 +82,7 @@
 	.fullscreen {
 		background: url(images/logo2.png) center center no-repeat ;
 		/*background-color: white;
-*/		height: 90vh;
+*/		height: 75vh;
 		display: flex;
 		background-size: 70vh;
 	}
@@ -110,7 +116,7 @@
 
 /*materialize shadows*/
 	.imgbox1 {
-		background: url("images/me.jpg") no-repeat ;
+		background: url("images/me.jpg") no-repeat top center;
 		background-size: cover;
 		height: 320px;
 	}
