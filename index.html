@@ -39,7 +39,7 @@
 
 			<section id="home">
 				<h1 id="typeitintro">
-		    	Hello. My name is Philip.
+		    	Hello. My name is&nbsp
 			</h1>
 			</section>
 
@@ -196,7 +196,9 @@
 		<script>
 
 			// typeit js
-			$('#typeitintro').typeIt();
+			$('#typeitintro').typeIt({
+				cursor: false,
+			});
 
 			$('nav').onePageNav({
 				scrollThreshold: 0.4,
