@@ -40,7 +40,8 @@
 		font-family: 'BrandonReg', sans-serif;
 		font-weight: normal;
 		font-style: normal;
-		line-height: 1;
+		line-height: 1.2;
+		font-size: 16px;
 		background-color: #dddddd;
 	}
 
@@ -524,15 +525,15 @@
 
 	@media (max-width: 930px) {
 		.imgbox1 {
-			height: 420px;
+			height: 460px;
 		}
 
 		.tall {
-			height: 420px;
+			height: 460px;
 		}
 
 		.tall2 {
-		height: 380px;
+		height: 420px;
 		}
 	}
 
@@ -617,13 +618,6 @@
 		height: 280px;
 		}
 
-		h2 {
-			font-size: 1.2em;
-		}
-
-		p {
-			font-size: 16px;
-		}
 	}
 
 	@media (max-width: 580px) {
