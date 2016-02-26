@@ -615,8 +615,12 @@
 		}
 
 		.tall2 {
-		height: 280px;
+			height: 280px;
 		}
+
+		body {
+		font-size: 16px;
+	}
 
 	}
 
