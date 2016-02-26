@@ -615,12 +615,17 @@
 		}
 
 		.tall2 {
-		height: 280px;
+			height: 280px;
 		}
 
 		body {
+<<<<<<< HEAD
 			font-size: 16px;
 		}
+=======
+		font-size: 16px;
+	}
+>>>>>>> origin/master
 
 	}
 
